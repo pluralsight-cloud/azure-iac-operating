@@ -23,7 +23,7 @@ az stack group create \
 
 ## Fix the bug
 
-Change this line in main.bicep: 
+Change this line in main.bicep **and** main.bicepparam:
 
 ```bicep
 param deployDatabase = true

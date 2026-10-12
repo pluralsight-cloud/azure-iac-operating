@@ -1,5 +1,8 @@
 targetScope = 'resourceGroup'
 
+// @description('The consistency level for the Cosmos Account')
+// param consistency string
+
 @description('Name of the Cosmos DB account')
 param cosmosAccountName string
 
@@ -22,7 +25,7 @@ resource cosmosAccount 'Microsoft.DocumentDB/databaseAccounts@2024-05-15' = {
     ]
 
     consistencyPolicy: {
-      defaultConsistencyLevel: 'Session'
+      defaultConsistencyLevel: 'Session'  // consistency
     }
 
     enableFreeTier: true

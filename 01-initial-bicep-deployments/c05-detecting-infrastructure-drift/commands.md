@@ -1,4 +1,4 @@
-## Start by creating the networking resources:
+## Start by creating the pubsub resource:
 
 ```bash
 az deployment group create \

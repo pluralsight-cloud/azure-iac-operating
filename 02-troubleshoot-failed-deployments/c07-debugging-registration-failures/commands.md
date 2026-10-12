@@ -19,12 +19,12 @@ export PS1="\W \$ "
 
 ```bash
 az deployment group create \
-  --resource-group demoResourceGroup \
+  --resource-group AzureInfraRg \
   --template-file main.bicep \
   --parameters keyVaultName=my-demo-kv-REPLACE_ME_WITH_UNIQUE_STRING
 ```
-## Clean up the resources and resource group:
 
-```bash
-az group delete --name demoResourceGroup --yes
-```
+
+## Documentation Page:
+
+You can visit [this documentation page](https://learn.microsoft.com/en-us/azure/templates/microsoft.keyvault/2026-02-01/vaults?pivots=deployment-language-bicep).

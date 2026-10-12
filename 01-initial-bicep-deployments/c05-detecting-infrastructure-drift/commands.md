@@ -12,7 +12,7 @@ Then you should have all the demos you need for the course while you are still i
 You can also make the Cloud Shell prompt more compact by running:
 
 ```bash
-export PS1="\w \$ "
+export PS1="\W \$ "
 ```
 
 ## Start by creating the pubsub resource:

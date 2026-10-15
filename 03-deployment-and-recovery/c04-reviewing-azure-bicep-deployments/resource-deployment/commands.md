@@ -22,3 +22,5 @@ az deployment group create \
   --resource-group rg-m3-bicep-demo \
   --parameters main.bicepparam
 ```
+
+To look for your resource group deployment go under the Resource Group > Settings > Deployments > Deployment name section of the Azure Console.

@@ -26,3 +26,5 @@ az deployment sub create \
 ```
 
 Note that the location above is not the location of the resources, but the location of deployment metadata.
+
+To see the results of the deployment, for the Subscription-based deployment in the Azure Console look under: Subscription > Settings > Deployments
